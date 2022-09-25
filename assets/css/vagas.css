@@ -1,0 +1,96 @@
+.vagas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 96px 80px;
+	/*text-align: left;*/
+	/*gap: 64px;*/
+}
+
+.vagas__tag {
+	color: var(--cor-vermelho);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	mix-blend-mode: multiply;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding: 4px 12px;
+	background: rgba(142, 36, 36, 0.05);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+}
+.vagas__title {
+	color: var(--cor-azul-escuro);
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	margin: 64px 0px 20px 0px;
+}
+.vagas__texto {
+	color: var(--cor-cinza-500);
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.vagas__banner {
+	margin-top: 108px;
+	width: 1216px;
+	height: 400px;
+}
+.card {
+	display: grid;
+	grid-template-areas: 
+	"titulo titulo"
+	"time salario";
+	padding: 24px 24px 28px;
+	gap: 24px;
+	border: 1px solid var(--cor-borda-card);
+	border-radius: 16px;
+	width: 768px;
+	grid-template-columns: min-content auto;
+}
+
+.vagas__lista__title {
+	width: 768px;
+	margin: 64px 0 6px 0;
+
+}
+.vagas__lista__title, .card__title {
+	color: var(--cor-azul-escuro);
+	font-weight: 500;
+}
+
+.vagas__lista__container {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	text-align: left;
+}
+.vagas__lista__title {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.card__title {
+	font-size: 18px;
+	line-height: 28px;
+	grid-area: titulo;
+}
+.card__time {
+	grid-area: time;
+	white-space: nowrap;
+}
+
+.card__time, .card__salario {
+	color: var(--cor-cinza-500);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.card__salario {
+	grid-area: salario;
+}

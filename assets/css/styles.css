@@ -1,0 +1,21 @@
+@import url("header.css");
+@import url("sobre-nos.css");
+@import url("vagas.css");
+@import url("falam.css");
+@import url("novidades.css");
+
+:root {
+--cor-vermelho: #8E2424;
+--cor-cinza: #3A404E;
+--cor-azul-escuro: #101828;
+--cor-cinza-500: #667085;
+--cor-branca: #FFFFFF;
+--cor-branca-escuro: #F9FAFB;
+--cor-borda-card: #EAECF0;
+--cor-copyright: #98A2B3;
+--fonte-inter: 'Inter', sans-serif;
+}
+
+body {
+	font-family: var(--fonte-inter);
+}
